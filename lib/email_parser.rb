@@ -13,7 +13,7 @@ class EmailAddressParser
   end
 
   def parse
-    csv_data.split("\n").flatten
+    csv_data.split("\n")
   end
 
 
