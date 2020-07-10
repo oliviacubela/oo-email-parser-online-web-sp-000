@@ -12,6 +12,10 @@ class EmailAddressParser
     @@all
   end
 
+  def parse(csv_data)
+    csv_data.split("\n")
+  end
+
 
 end
 
